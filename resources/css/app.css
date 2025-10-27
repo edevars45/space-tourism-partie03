@@ -1,5 +1,17 @@
+/* Active Tailwind v4 (préflight + utilitaires) */
 @import "tailwindcss";
-@layer components{
-  .btn-explorer{@apply inline-flex items-center justify-center rounded-full bg-white text-black uppercase tracking-widest font-semibold w-44 h-44 md:w-56 md:h-56 transition duration-300 ease-out focus:outline-none focus:ring-4 focus:ring-white/70;}
-  .btn-explorer:hover{@apply scale-105;}
+
+/* Plugin Breeze pour les <input>, <select>, etc. */
+@plugin "@tailwindcss/forms";
+
+/* Tes composants personnalisés */
+@layer components {
+  .btn-explorer {
+    @apply inline-flex items-center justify-center rounded-full
+           bg-white text-black uppercase tracking-widest font-semibold
+           w-44 h-44 md:w-56 md:h-56
+           transition duration-300 ease-out
+           focus:outline-none focus:ring-4 focus:ring-white/70;
+  }
+  .btn-explorer:hover { @apply scale-105; }
 }

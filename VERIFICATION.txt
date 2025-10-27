@@ -1,0 +1,63 @@
+===== ENV and VERSIONS =====
+PHP 8.3.26 (cli) (built: Sep 23 2025 18:11:43) (ZTS Visual C++ 2019 x64)
+Copyright (c) The PHP Group
+Zend Engine v4.3.26, Copyright (c) Zend Technologies
+Composer version 2.8.12 2025-09-19 13:41:59
+PHP version 8.3.26 (C:\laragon\bin\php\php-8.3.26-Win32-vs16-x64\php.exe)
+Run the "diagnose" command to get more detailed diagnostics output.
+ 
+  GET|HEAD       / ...................................................................................... home › PageController@home
+  GET|HEAD       crew ................................................................................... crew › PageController@crew
+  GET|HEAD       destinations .......................................................... destinations › DestinationsController@index
+  GET|HEAD       destinations/{planet} ............................................. destinations.show › DestinationsController@show
+  GET|HEAD       lang/{locale} ................................................................. lang.switch › LangController@switch
+  GET|HEAD       storage/{path} ...................................................................................... storage.local
+  GET|HEAD       technology ................................................................. technology › PageController@technology
+  GET|HEAD       up ................................................................................................................ 
+
+                                                                                                                  Showing [8] routes
+
+ Le volume dans le lecteur C s’appelle System
+ Le numéro de série du volume est CE95-15BC
+
+ Répertoire de C:\laragon\www\space-tourism-partie03\public\build
+
+27/10/2025  16:08    <DIR>          .
+27/10/2025  16:08    <DIR>          ..
+27/10/2025  16:08    <DIR>          assets
+27/10/2025  16:08               364 manifest.json
+               1 fichier(s)              364 octets
+               3 Rép(s)  47 168 643 072 octets libres
+{
+  "resources/css/app.css": {
+    "file": "assets/app-DFEY8UI3.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BLXUCRck.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-DFEY8UI3.css"
+    ]
+  }
+}space-tourism-partie03@ C:\laragon\www\space-tourism-partie03
+├─┬ @tailwindcss/forms@0.5.10
+│ └── tailwindcss@4.1.16 deduped
+├─┬ @tailwindcss/postcss@4.1.13
+│ ├─┬ @tailwindcss/node@4.1.13
+│ │ └── tailwindcss@4.1.13
+│ └── tailwindcss@4.1.13
+├─┬ @tailwindcss/vite@4.1.13
+│ ├── tailwindcss@4.1.13
+│ └── vite@7.1.12 deduped
+├─┬ laravel-vite-plugin@2.0.1
+│ └── vite@7.1.12 deduped
+├── tailwindcss@4.1.16
+└── vite@7.1.12
+
